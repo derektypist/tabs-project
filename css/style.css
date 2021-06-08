@@ -4,3 +4,14 @@ body {
     background: hsl(210, 36%, 96%);
     color: hsl(209, 61%, 16%);
 }
+
+/* About */
+.title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title p {
+    width: 80%;
+    margin: 0 auto;
+}
