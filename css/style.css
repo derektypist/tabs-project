@@ -56,7 +56,6 @@ body {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     display: grid;
-    font-family: inherit;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -73,6 +72,7 @@ body {
     border: none;
     text-transform: capitalize;
     font-size: 1rem;
+    font-family: inherit;
     display: block;
     background: hsl(212,33%,89%);
     cursor: pointer;
