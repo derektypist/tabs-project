@@ -45,3 +45,18 @@ body {
     display: grid;
     grid-template-rows: auto 1fr;
 }
+
+.btn-container {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tab-btn:nth-child(1) {
+    border-top-left-radius: 0.5rem;
+}
+
+.tab-btn:nth-child(3) {
+    border-top-right-radius: 0.5rem;
+}
