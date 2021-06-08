@@ -81,7 +81,7 @@ body {
 
 .tab-btn:hover:not(.active) {
     background: hsl(205,100%,96%);
-    color: rgba(4, 27, 22, 0.089);
+    color: darkblue;
 }
 
 .about-content {
