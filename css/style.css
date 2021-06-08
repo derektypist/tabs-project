@@ -15,3 +15,33 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
+.about-img {
+    margin-bottom: 2rem;
+}
+
+.about-img img {
+    border-radius: 0.5rem;
+    object-fit: cover;
+    height: 20rem;
+}
+
+/* Media Query in About */
+@media screen and (min-width: 992px) {
+    .about-img {
+        margin-bottom: 0;
+    }
+
+    .about-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+.about {
+    background: white;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
