@@ -50,6 +50,7 @@ body {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     display: grid;
+    font-family: inherit;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
